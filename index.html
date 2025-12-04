@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Creador de Sitios Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Fuente parecida a la de Wix -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <!-- NAVBAR -->
+    <header class="main-header">
+      <div class="container nav-container">
+        <div class="logo">
+          <span class="logo-mark">WB</span>
+          <span class="logo-text">Website Builder</span>
+        </div>
+
+        <nav class="main-nav" id="mainNav">
+          <a href="#features">Funciones</a>
+          <a href="#templates">Plantillas</a>
+          <a href="#business">Para tu negocio</a>
+          <a href="#pricing">Planes</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="btn btn-text">Iniciar sesión</button>
+          <button class="btn btn-outline">Registrarse</button>
+          <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú móvil">
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <main>
+      <section class="hero" id="hero">
+        <div class="gradient-bg"></div>
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <div class="hero-pill">
+              <span class="pill-dot"></span>
+              <span class="pill-text">Creador de sitios web líder</span>
+            </div>
+
+            <h1>Crea un sitio web profesional sin saber programar</h1>
+            <p class="hero-subtitle">
+              Diseña, personaliza y publica tu página con herramientas intuitivas,
+              plantillas modernas y funcionalidades impulsadas por IA.
+            </p>
+
+            <div class="hero-ctas">
+              <a href="#signup" class="btn btn-primary">Empezar ahora</a>
+              <button class="btn btn-ghost" data-scroll="#templates">Ver plantillas</button>
+            </div>
+
+            <p class="hero-note">
+              Es gratis crear tu sitio. Mejora a un plan premium cuando lo necesites.
+            </p>
+          </div>
+
+          <div class="hero-media">
+            <div class="hero-card main-editor-card">
+              <div class="hero-card-header">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="hero-card-body">
+                <div class="mock-toolbar">
+                  <span class="mock-tool active">Arrastrar & soltar</span>
+                  <span class="mock-tool">Texto</span>
+                  <span class="mock-tool">Imágenes</span>
+                </div>
+                <div class="mock-canvas">
+                  <div class="mock-block title"></div>
+                  <div class="mock-block subtitle"></div>
+                  <div class="mock-block button"></div>
+                  <div class="mock-block image"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-floating-card analytics-card">
+              <p class="analytics-label">Visitas al sitio</p>
+              <p class="analytics-value">+245%</p>
+              <div class="analytics-bar"></div>
+            </div>
+
+            <div class="hero-floating-card ai-card">
+              <p class="ai-title">Asistente IA</p>
+              <p class="ai-text">“Generé un diseño en segundos ✨”</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN: PREPARÁNDO TE PARA EL ÉXITO -->
+      <section class="section" id="features">
+        <div class="container">
+          <header class="section-header">
+            <h2>Todo lo que necesitas para lanzar tu sitio</h2>
+            <p>
+              Combina diseño, gestión y crecimiento en un solo lugar: desde la
+              primera idea hasta que empiezan a llegar tus clientes.
+            </p>
+          </header>
+
+          <div class="features-grid">
+            <article class="feature-card">
+              <div class="feature-tag">Diseño</div>
+              <h3>Editor visual intuitivo</h3>
+              <p>
+                Personaliza cada detalle con un editor de arrastrar y soltar,
+                sin tocar una sola línea de código.
+              </p>
+              <ul class="feature-list">
+                <li>Bloques listos para usar</li>
+                <li>Secciones pre-diseñadas</li>
+                <li>Ajuste automático en móvil</li>
+              </ul>
+              <button class="link-button" data-scroll="#templates">
+                Explorar plantillas →
+              </button>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-tag">Gestión</div>
+              <h3>Panel para tu negocio</h3>
+              <p>
+                Centraliza reservas, pedidos, contactos y estadísticas en un
+                panel claro para tu día a día.
+              </p>
+              <ul class="feature-list">
+                <li>CRM integrado</li>
+                <li>Gestión de productos y pedidos</li>
+                <li>Reportes en tiempo real</li>
+              </ul>
+              <button class="link-button" data-scroll="#business">
+                Ver herramientas →
+              </button>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-tag">Crecimiento</div>
+              <h3>Marketing y SEO integrados</h3>
+              <p>
+                Consigue más visitas con herramientas de SEO, email marketing y
+                automatizaciones listas para usar.
+              </p>
+              <ul class="feature-list">
+                <li>SEO guiado paso a paso</li>
+                <li>Campañas de correo</li>
+                <li>Automatizaciones inteligentes</li>
+              </ul>
+              <button class="link-button" data-scroll="#pricing">
+                Empezar gratis →
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN: PLANTILLAS -->
+      <section class="section alt-section" id="templates">
+        <div class="container">
+          <header class="section-header">
+            <h2>Plantillas modernas para cualquier proyecto</h2>
+            <p>
+              Elige una plantilla y adáptala a tu estilo. Todo se ajusta
+              automáticamente a móvil y escritorio.
+            </p>
+          </header>
+
+          <div class="templates-grid">
+            <div class="template-card">
+              <div class="template-thumb template-thumb-1"></div>
+              <div class="template-info">
+                <h3>Tienda online</h3>
+                <p>Ideal para vender productos físicos o digitales.</p>
+              </div>
+            </div>
+
+            <div class="template-card">
+              <div class="template-thumb template-thumb-2"></div>
+              <div class="template-info">
+                <h3>Portafolio creativo</h3>
+                <p>Muestra tus proyectos con un diseño limpio.</p>
+              </div>
+            </div>
+
+            <div class="template-card">
+              <div class="template-thumb template-thumb-3"></div>
+              <div class="template-info">
+                <h3>Negocio local</h3>
+                <p>Perfecto para restaurantes, salones o servicios.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN: NEGOCIO -->
+      <section class="section" id="business">
+        <div class="container business-layout">
+          <div class="business-copy">
+            <h2>Haz crecer tu negocio desde un solo panel</h2>
+            <p>
+              Administra citas, pagos, campañas y comunicaciones sin salir del
+              creador de sitios. Ahorra tiempo y mantén todo organizado.
+            </p>
+
+            <div class="business-points">
+              <div class="business-point">
+                <span class="point-icon">📈</span>
+                <div>
+                  <h3>Estadísticas claras</h3>
+                  <p>Conoce qué páginas convierten mejor y de dónde vienen tus visitas.</p>
+                </div>
+              </div>
+
+              <div class="business-point">
+                <span class="point-icon">🛒</span>
+                <div>
+                  <h3>E-commerce integrado</h3>
+                  <p>Carrito, métodos de pago y gestión de inventario incorporados.</p>
+                </div>
+              </div>
+
+              <div class="business-point">
+                <span class="point-icon">🤖</span>
+                <div>
+                  <h3>Automatizaciones</h3>
+                  <p>Envía correos, recordatorios y mensajes sin hacerlo manualmente.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="business-panel">
+            <div class="panel-header">
+              <span>Panel de negocio</span>
+              <span class="panel-status">Activo</span>
+            </div>
+            <div class="panel-body">
+              <div class="panel-row">
+                <span>Nuevos pedidos</span>
+                <span class="panel-pill">12</span>
+              </div>
+              <div class="panel-row">
+                <span>Citas de esta semana</span>
+                <span class="panel-pill">29</span>
+              </div>
+              <div class="panel-row">
+                <span>Correos enviados</span>
+                <span class="panel-pill">1.2K</span>
+              </div>
+              <div class="panel-chart"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA FINAL -->
+      <section class="section cta-section" id="pricing">
+        <div class="container cta-inner">
+          <div class="cta-text">
+            <h2>Empieza a construir tu sitio hoy mismo</h2>
+            <p>
+              Crea tu página gratis y mejora a un plan de pago solo cuando tu
+              proyecto esté listo para dar el siguiente paso.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a href="#signup" class="btn btn-primary btn-large">Crear sitio gratis</a>
+            <button class="btn btn-outline btn-large" data-scroll="#hero">
+              Ver cómo funciona
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ANCLA FICTICIA PARA “EMPEZAR AHORA” -->
+      <section id="signup" class="section small-section">
+        <div class="container">
+          <h2 class="signup-title">Aquí iría tu flujo de registro</h2>
+          <p class="signup-text">
+            En tu proyecto real, reemplaza esta sección con un formulario, un
+            modal o una redirección a tu sistema de alta de usuarios.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+      <div class="container footer-inner">
+        <p class="footer-note">
+          Este es un ejemplo educativo que recrea la apariencia de una landing,
+          no es el sitio oficial de ninguna marca.
+        </p>
+
+        <div class="footer-links">
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos de uso</a>
+        </div>
+
+        <p class="footer-copy">
+          © 2025 Website Builder Demo
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/assets/js/script.js" defer></script>
+</body>
+</html>
